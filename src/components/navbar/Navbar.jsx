@@ -18,7 +18,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-dark  navbar">
         <div className="container-fluid">
           <Link className="navbar-brand fs-1 fst-italic" to="#">
-          <h1> <span>Food</span>  <span>Cheetah</span>   </h1>  
+          <h1> <span>Food</span> <span>Cheetah</span>  </h1>  
           </Link>
 
 

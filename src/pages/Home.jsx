@@ -13,7 +13,7 @@ const Home = () => {
   const [foodCategory, setFoodCategory] = useState([]);
 
   const loadData = async () => {
-    let response = await fetch("http://localhost:5000/api/foodData", {
+    let response = await fetch("https://final-project-exor.vercel.app/api/foodData", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

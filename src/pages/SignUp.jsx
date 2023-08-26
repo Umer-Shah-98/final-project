@@ -17,7 +17,7 @@ const SignUp = () => {
         location: credentials.geoLocation,
       })
     );
-    const response = await fetch("http://localhost:5000/api/newuser", {
+    const response = await fetch("https://final-project-exor.vercel.app/api/newuser", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

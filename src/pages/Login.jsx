@@ -18,7 +18,7 @@ const Login = () => {
       })
     );
     const response = await fetch("https://final-project-exor.vercel.app/api/loginuser", {
-      method: "POST",
+      method: "POST", mode:"no-cors"
       headers: {
         "Content-Type": "application/json",
       },

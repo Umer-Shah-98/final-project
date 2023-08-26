@@ -5,11 +5,7 @@ const cors = require("cors");
 const mongoDB = require("./db");
 mongoDB();
 
-app.use(cors({
-  origin: ["https://64e942355e3821614de87d5a--comfy-lokum-8e7426.netlify.app"],
-  methods: ["POST", "GET"],
-  credentials: true
-}));
+app.use(cors())
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
